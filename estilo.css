@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Georgia', serif;
+  color: white;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.carta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #333;
+  border-radius: 15px;
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+}
+
+.carta h1 {
+  text-align: center;
+  margin-top: 0;
+  color: #d80073;
+}
